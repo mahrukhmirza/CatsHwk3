@@ -1,7 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/// <summary>
+/// mahrukh sameen mirza 
+/// april 14,2019
+/// this script defines cat attributes 
+/// </summary>
 public class Cat : MonoBehaviour
 {
     public Material[] furColor;

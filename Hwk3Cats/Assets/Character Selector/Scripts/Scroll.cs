@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
-
+/// <summary>
+/// mahrukh sameen mirza 
+/// april 14,2019
+/// </summary>
 public class Scroll : MonoBehaviour 
 {
     [Header("Select amount of your objects")]

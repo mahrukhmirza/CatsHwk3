@@ -1,20 +1,24 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/// <summary>
+/// mahrukh sameen mirza 
+/// april 14,2019
+/// this is spawner script
+/// </summary>
 public class Spawner : MonoBehaviour
 {
     public GameObject myCat;
     private string furColor;
-    private string fElement0;
-    private int nfElement0 = 4;
-    private string fElement1;
-    private int nfElement1 = 3;
-    private string fElement2;
+    private string furElement0;
+    private int nfurElement0 = 4;
+    private string furElement1;
+    private int nfurElement1 = 3;
+    private string furElement2;
     private string eyeColor;
-    private string eElement0;
-    private string eElement1;
-    private string eElement2;
+    private string eyeElement0;
+    private string eyeElement1;
+    private string eyeElement2;
     private int size = 3;
 
     public void Spawn(Vector3 position)
@@ -22,16 +26,16 @@ public class Spawner : MonoBehaviour
         Instantiate(myCat).transform.position = position;
     }
 
-        public string FElement
+        public string FurElement
     {
         get
         {
-            return fElement0;
+            return furElement0;
         }
         set
         {
-            if (fElement0 == "_GreyMat" && nfElement0 > nfElement1)
-                fElement0 = value;
+            if (furElement0 == "_GreyMat" && nfurElement0 > nfurElement1)
+                furElement0 = value;
         }
     } 
     
